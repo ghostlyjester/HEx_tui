@@ -9,6 +9,7 @@
 
 
 int main(int argc, char* argv[]){
+	tb_init();
 char quit;
 	if(argc < 2){
 	std::cerr << "Usage: hex <filename>" << std::endl;
